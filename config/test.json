@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey": "1243",
+    "jwtPrivateKey": "",
     "db": "mongodb://localhost/craft_shoes_tests"
 }
