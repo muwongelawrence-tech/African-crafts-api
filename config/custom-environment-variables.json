@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey": "craft_jwtPrivateKey"
+    "jwtPrivateKey": "craft_jwtPrivateKey",
+    "db": "craft_db"
 }
