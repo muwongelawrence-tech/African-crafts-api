@@ -37,8 +37,7 @@ router.get('/:id', validateObjectId , async (req,res) => {
            description : req.body.description,
            category : req.body.category,
            image : req.body.image,
-           numberInStock : req.body.numberInStock,
-           quantity : req.body.quantity
+           numberInStock : req.body.numberInStock
         });
         
        //save shoe to the database
@@ -48,7 +47,7 @@ router.get('/:id', validateObjectId , async (req,res) => {
 
   // updating requests
 
-  router.put('/:id' , [auth ,admin] ,async (req,res) => {
+  router.put('/:id' ,async (req,res) => {
      //vaidating the body sent in the request.
     const { error } = validateShoe(req.body);
     
@@ -60,8 +59,7 @@ router.get('/:id', validateObjectId , async (req,res) => {
            description : req.body.description,
            category : req.body.category,
            image : req.body.image,
-           numberInStock : req.body.numberInStock,
-           quantity : req.body.quantity
+           numberInStock : req.body.numberInStock
       }, {new:true});
 
   

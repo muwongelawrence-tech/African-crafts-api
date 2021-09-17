@@ -39,8 +39,7 @@ router.post('/',[auth ,admin], async (req,res) => {
            description : req.body.description,
            category : req.body.category,
            image : req.body.image,
-           numberInStock : req.body.numberInStock,
-           quantity : req.body.quantity
+           numberInStock : req.body.numberInStock
       });
         
      //save material to the database
@@ -62,8 +61,7 @@ router.post('/',[auth ,admin], async (req,res) => {
           description : req.body.description,
           category : req.body.category,
           image : req.body.image,
-          numberInStock : req.body.numberInStock,
-          quantity : req.body.quantity
+          numberInStock : req.body.numberInStock
 
       }, { new:true });
 
