@@ -50,7 +50,7 @@ router.post('/',[auth ,admin], async (req,res) => {
   
 // updating material
 
-  router.put('/:id' , [auth ,admin] ,async (req,res) => {
+  router.put('/:id' ,async (req,res) => {
      //vaidating the body sent in the request.
     const { error } = validateMaterial(req.body);
     if(error) return res.status(400).send(error.details[0].message);
