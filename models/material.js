@@ -28,7 +28,6 @@ const materialSchema = new mongoose.Schema({
     },
     image: {
         type:String,
-        required:true,
         minlength:5,
         maxlength:70
     },
@@ -49,7 +48,7 @@ function validateMaterial(material){
         price: Joi.number().min(5500).max(100000).required(),
         description : Joi.string().min(5).max(255).required(),
         category : Joi.string().min(3).max(50).required(),
-        image : Joi.string().min(5).max(70).required(),
+        image : Joi.string().min(5).max(70),
         numberInStock : Joi.number().min(0).max(200).required()
 
     };
