@@ -60,7 +60,6 @@ router.post('/',[auth ,admin], async (req,res) => {
           price : req.body.price,
           description : req.body.description,
           category : req.body.category,
-          image : req.body.image,
           numberInStock : req.body.numberInStock
 
       }, { new:true });
