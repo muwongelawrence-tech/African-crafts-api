@@ -10,6 +10,7 @@ require("./startup/prod")(app);
 
 
 // environment variables and this helps to set the port dynamically
+// environment variables and this helps to set the port dynamically
 const port = process.env.PORT || 3500;
 const server = app.listen(port, () => {
     winston.info(`listening on port ${port}..........`);
