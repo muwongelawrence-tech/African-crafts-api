@@ -120,3 +120,7 @@
 {"level":"info","message":"listening on port 3500..........","timestamp":"2021-09-03T06:48:09.851Z"}
 {"level":"info","message":"connected to mongodb://localhost/craft_shoes_tests ....","timestamp":"2021-09-03T06:48:09.900Z"}
 {"level":"info","message":"connected to mongodb://localhost/craft_shoes_tests ....","timestamp":"2021-09-03T06:48:11.049Z"}
+{"level":"info","message":"listening on port 3500..........","timestamp":"2023-01-18T16:48:39.693Z"}
+{"level":"info","message":"connected to mongodb://localhost/craft_shoes ....","timestamp":"2023-01-18T16:48:39.726Z"}
+{"level":"info","message":"listening on port 3500..........","timestamp":"2023-04-08T08:43:44.329Z"}
+{"level":"info","message":"connected to mongodb://localhost/craft_shoes ....","timestamp":"2023-04-08T08:43:45.357Z"}

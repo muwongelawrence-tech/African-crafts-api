@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "16.3.0"
+    "node": "16.13.1"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +27,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "mongoose": "^5.13.3",
+    "mongoose": "^7.0.3",
     "winston": "2.4.0",
     "winston-mongodb": "3.0.0"
   },
